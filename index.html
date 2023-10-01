@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga SaiRam Teja</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="shortcut icon" type="image/png" href="assets/logo.jpg"  >
+
+</head>
+
+<body>
+
+    
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="title"><span class="myname">SAI RAM</span> Portfolio.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Interest's</a></li>
+                    <li><a href="#my-work">My-work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header_text">
+                <h1>Hello,<br><p> I'm <span>Yoga SaiRam Teja</span></p></h1>
+            </div>
+        </div>
+    </div>
+
+    <!------------------about--------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img width="20%" height="100%" src="assets/myprofilepic.jpg" alt="myprofilepuc">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>I'm A Recent Graduate.I am seeking for a job oppurtunity where I can put my skill into use and
+                        gain Experience.</p>
+
+                    <h2 class="subtitle2">SKILLS</h2>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('programming')">Programming</p>
+                        <p class="tab-links" onclick="opentab('database')">Database's</p>
+                        <p class="tab-links" onclick="opentab('tools')">Tools</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="programming">
+                        <ul>
+                            <li><span>Java</span></li>
+                            <li><span>SQL</span></li>
+                            <li><span>HTML,CSS,JavaScript</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="database">
+                        <ul>
+                            <li><span>RDBMS</span></li>
+                            <li><span>Oracle 10g</span></li>
+                            <li><span>My-sql</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="tools">
+                        <ul>
+                            <li><span>Eclipse</span></li>
+                            <li><span>Oracle 10g</span></li>
+                            <li><span>VS code</span></li>
+                            <li><span>VCS : GIT </span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----projects------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Intrested In</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-file-lines"></i>
+                    <h2>Java </h2>
+                    <p>Java is an Object Oriented Programming Language , I Like coding using Java language and I use
+                        Eclipse IDE for Programming in Java</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web deveopment</h2>
+                    <p>HTML ,CSS ,Java Script Web development refers to the creating, building, and maintaining of
+                        websites and I like to build frontend sites as a part of learning this I have made this portfolio.</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-gears"></i>
+                    <h2>Full Stack</h2>
+                    <p>Full stack development is the process of designing, creating, testing, and deploying a complete
+                        web application from start to finish. It involves working with various technologies and tools,
+                        including front-end web development, back-end web development, and database development.As I'm
+                        Intrested In Java I am learning Java Full Stack </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------portfolio-->
+    <div id="my-work">
+        <div class="container">
+            <h1 class="subtitle">My-Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="assets/virtualatm.jpg" alt="">
+                    <div class="layer">
+                        <h3>Virtual ATM Simulator</h3>
+                        <p>A Java Project with features of online Banking has JDBC connectivity..I tried to replicate online-Banking and Atm System.</p>
+                        <a href="https://github.com/sairamteja13/Virtual_ATM" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/work2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Ball game</h3>
+                        <p>A ball game built using HTML canvas and JavaScript.It is a simple Fun game </p>
+                        <a href="https://github.com/sairamteja13" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/to-do-list.png" alt="">
+                    <div class="layer">
+                        <h3>TO DO list</h3>
+                        <p>Designed a simple HTML,CSS and JavaScript website that includes date allows users to enter their to-do list for a day</p>
+                        <a href="https://github.com/sairamteja13/To-Do-List.-" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <a href="https://github.com/sairamteja13" target="_blank" class="btn">See more</a>
+    </div>
+    </div>
+    </div>
+
+    <!----------contact-->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle" >Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i> <a href="mailto: sairamteja413@gmail.com">sairamteja413@gmail.com</a> </p>
+                    
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/gadiparthi-yoga-sairam-teja-bba940221" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sairamteja13" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+
+                    
+                </div>
+                <div class="contact-right">
+                    
+                    <!-- <div class="resume-contact">
+                        <h4 class="resume-label">download my resume here</h4>
+                        <a href="pics/Yoga sairam teja.pdf" download="yogasairamteja-resume" class="resume-btn"><button>RESUME</button></a>
+                    </div> -->
+
+                    <!-- <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form> -->
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made with <i class="fa-regular fa-heart"></i> SaiRam Teja</p>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/2fa401fbb9.js" crossorigin="anonymous"></script>
+    <script src="portfolio.js"></script>
+
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+    
+</body>
+
+</html>
