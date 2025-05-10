@@ -12,13 +12,10 @@
 </head>
 
 <body>
-
-    
-
     <div id="header">
         <div class="container">
             <nav>
-                <h1 class="title"><span class="myname">SAI RAM</span> Portfolio.</h1>
+                <h1 class="title"><span class="myname">SAI RAM TEJA</span> .</h1>
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -29,62 +26,75 @@
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
-            <div class="header_text">
-                <h1>Hello,<br><p> I'm <span>Yoga SaiRam Teja</span></p></h1>
+            <div class="text-container">
+                <h1>Hello , I'm Salesforce Certified</h1>
+                <span id="changingText"></span>
+                <span class="cursor"></span>
             </div>
         </div>
     </div>
 
-    <!------------------about--------------------->
+    <!-- ----------------about------------------- -->
 
     <div id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img width="20%" height="100%" src="assets/myprofilepic.jpg" alt="myprofilepuc">
+                    <img width="20%" height="100%" src="assets/portfolio background image.jpg" alt="myprofilepuc">
                 </div>
                 <div class="about-col-2">
                     <h1 class="subtitle">About me</h1>
-                    <p>I'm A Recent Graduate.I am seeking for a job oppurtunity where I can put my skill into use and
-                        gain Experience.</p>
+                    <p>I am a passionate Salesforce Developer with a strong focus on Lightning Web Components (LWC) and Apex development. I enjoy crafting dynamic, high-performance applications that enhance user experience and drive business efficiency.</p>
 
-                    <h2 class="subtitle2">SKILLS</h2>
-
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('programming')">Programming</p>
-                        <p class="tab-links" onclick="opentab('database')">Database's</p>
-                        <p class="tab-links" onclick="opentab('tools')">Tools</p>
+                    <section id="technologies">
+                        <div class="section-title">Skills</div>
+                        <div class="tech-container" id="techContainer">
+                          
+                        </div>
+                    </section>
+                    <!-- <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('programming')">Salesforce Development</p>
+                        <p class="tab-links" onclick="opentab('database')">Database & Query Languages</p>
+                        <p class="tab-links" onclick="opentab('Integrations')">Integrations & APIs</p>
+                        <p class="tab-links" onclick="opentab('tools')"> Tools</p>
                     </div>
                     <div class="tab-contents active-tab" id="programming">
                         <ul>
-                            <li><span>Java</span></li>
-                            <li><span>SQL</span></li>
-                            <li><span>HTML,CSS,JavaScript</span></li>
+                            <li><span>Apex (Triggers, Batch, Schedulers, Future Methods)</span></li>
+                            <li><span>Lightning Web Components (LWC)</span></li>
+                            <li><span>Aura Components</span></li>
+                            <li><span>Visualforce</span></li>
+                            <li><span>Problem-Solving & Debugging</span></li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="database">
                         <ul>
-                            <li><span>RDBMS</span></li>
-                            <li><span>Oracle 10g</span></li>
-                            <li><span>My-sql</span></li>
+                            <li><span>SOQL & SOSL</span></li>
+                            <li><span>Schema Design & Object Relationships</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Integrations">
+                        <ul>
+                            <li><span>Rest API</span></li>
+                            <li><span>OAuth 2.0, Named Credentials</span></li>
+                            <li><span>External Services & Callouts</span></li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="tools">
                         <ul>
-                            <li><span>Eclipse</span></li>
-                            <li><span>Oracle 10g</span></li>
-                            <li><span>VS code</span></li>
-                            <li><span>VCS : GIT </span></li>
+                            <li><span>Salesforce DX (SFDX)</span></li>
+                            <li><span>VS Code & Salesforce CLI</span></li>
+                            <li><span>Git & GitHub</span></li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
 
-    <!-----projects------->
+    <!-- ---projects----- -->
 
-    <div id="services">
+    <!-- <div id="services">
         <div class="container">
             <h1 class="subtitle">Intrested In</h1>
             <div class="services-list">
@@ -113,39 +123,40 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!----------portfolio-->
     <div id="my-work">
         <div class="container">
             <h1 class="subtitle">My-Work</h1>
-            <div class="worklist">
-                <div class="work">
-                    <img src="assets/virtualatm.jpg" alt="">
-                    <div class="layer">
-                        <h3>Virtual ATM Simulator</h3>
-                        <p>A Java Project with features of online Banking has JDBC connectivity..I tried to replicate online-Banking and Atm System.</p>
-                        <a href="https://github.com/sairamteja13/Virtual_ATM" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <div class="carousel-wrapper" style="overflow: hidden;">
+                <div class="worklist">
+                    <div class="work">
+                        <img src="assets/virtualatm.jpg" alt="">
+                        <div class="layer">
+                            <h3>Transaction Tracker</h3>
+                            <p>Transaction Tracker is a Salesforce Experience Cloud application built using the LWR template. It allows authenticated portal users (Contacts) to create, view, and categorize their financial transactions through a custom UI built with Lightning Web Components (LWC).</p>
+                            <a href=""><i class="fa-brands fa-github"></i></a>
+                        </div>
                     </div>
-                </div>
-                <div class="work">
-                    <img src="assets/work2.jpg" alt="">
-                    <div class="layer">
-                        <h3>Recipie Finder</h3>
-                        <p>An Api based project where I used a free api that allows users to search for a Recipie</p>
-                        <a href="https://github.com/sairamteja13/Recipie-Finder" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <div class="work">
+                        <img src="assets/work2.jpg" alt="">
+                        <div class="layer">
+                            <h3>Recipie Finder</h3>
+                            <p>An Api based project where I used a free api that allows users to search for a Recipie</p>
+                            <a href="https://github.com/sairamteja13/Recipie-Finder" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
                     </div>
-                </div>
-                <div class="work">
-                    <img src="assets/to-do-list.png" alt="">
-                    <div class="layer">
-                        <h3>TO DO list</h3>
-                        <p>Designed a simple HTML,CSS and JavaScript website that includes date allows users to enter their to-do list for a day</p>
-                        <a href="https://github.com/sairamteja13/To-Do-List.-" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <div class="work">
+                        <img src="assets/to-do-list.png" alt="">
+                        <div class="layer">
+                            <h3>Virtual ATM Simulator</h3>
+                            <p>A Java Project with features of online Banking has JDBC connectivity..I tried to replicate online-Banking and Atm System.</p>
+                            <a href="https://github.com/sairamteja13/Virtual_ATM" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
         <a href="https://github.com/sairamteja13" target="_blank" class="btn">See more</a>
     </div>
@@ -169,16 +180,12 @@
                     
                 </div>
                 <div class="contact-right">
-                    
-                  
-
                     <!-- <form action="">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form> -->
-
                 </div>
             </div>
         </div>
